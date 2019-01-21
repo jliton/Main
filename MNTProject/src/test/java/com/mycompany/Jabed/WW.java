@@ -15,7 +15,7 @@ public class WW {
 
 	public static WebDriver driver;
 
-	@Test(priority=1)
+	@Test
 	public static void Verfication() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
