@@ -1,4 +1,4 @@
-package com.mycompany.Jabed;
+package POM;
 
 import org.testng.annotations.Test;
 

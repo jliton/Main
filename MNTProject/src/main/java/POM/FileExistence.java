@@ -1,4 +1,4 @@
-package com.mycompany.Jabed;
+package POM;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
