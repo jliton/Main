@@ -35,43 +35,43 @@ public class WW {
 		Assert.assertEquals(titlematched, true);
 		System.out.println("Find a Studio & Meeting Near You | WW USA" +" Title  Verified ");
 		// print out title from first result and distance
-		driver.findElement(By.id("meetingSearch")).sendKeys("10011");
-		driver.findElement(By.xpath(
-				"//button[@type='button' and contains(@ng-click,'mfsearch') and parent::SPAN[@class='input-group-btn']]"))
-				.click();
-
-		// Print the title of the first result and the distance
-		List<WebElement> results = driver.findElements(By.className("meeting-locations-list__item"));
-		WebElement firstResult = results.get(0);
-		String locationTitle = firstResult.findElements(By.xpath(".//span[@ng-if='!linkName']")).get(0).getText();
-		String distance = firstResult.findElements(By.xpath(".//div[@ng-if='showDistance']")).get(0).getText();
-
-		System.out.println("The first location title is: " + locationTitle);
-		System.out.println("And distance is: " + distance);
-		firstResult.click();
-			}	//Weekdays
-	
-		public static  void 	WeeeklySchedule(String Weekday) {
-			
-			if(Weekday.equalsIgnoreCase("SunDay")) {
-				
-//				List<WebElement> Schedule=driver.findElements(By.className("schedule-detailed-day"));
-//				WebElement Schedules=Schedule.get(0);
-//				String WeekdaysSchedule=Schedules.findElements(By.xpath("")).get(0).getText();
-				System.out.println("Sunday Schedule....");
-				//driver.close();
-			}
-				if(Weekday.equalsIgnoreCase("Monday")) {
-					
-//					List<WebElement> Schedule=driver.findElements(By.className("schedule-detailed-day"));
-//					WebElement Schedules=Schedule.get(0);
-//					String WeekdaysSchedule=Schedules.findElements(By.xpath("")).get(0).getText();
-					System.out.println("Monday Schedule....");
-					//driver.close();
-				
-				
-	}
-			
+//		driver.findElement(By.id("meetingSearch")).sendKeys("10011");
+//		driver.findElement(By.xpath(
+//				"//button[@type='button' and contains(@ng-click,'mfsearch') and parent::SPAN[@class='input-group-btn']]"))
+//				.click();
+//
+//		// Print the title of the first result and the distance
+//		List<WebElement> results = driver.findElements(By.className("meeting-locations-list__item"));
+//		WebElement firstResult = results.get(0);
+//		String locationTitle = firstResult.findElements(By.xpath(".//span[@ng-if='!linkName']")).get(0).getText();
+//		String distance = firstResult.findElements(By.xpath(".//div[@ng-if='showDistance']")).get(0).getText();
+//
+//		System.out.println("The first location title is: " + locationTitle);
+//		System.out.println("And distance is: " + distance);
+//		firstResult.click();
+//			}	//Weekdays
+//	
+//		public static  void 	WeeeklySchedule(String Weekday) {
+//			
+//			if(Weekday.equalsIgnoreCase("SunDay")) {
+//				
+////				List<WebElement> Schedule=driver.findElements(By.className("schedule-detailed-day"));
+////				WebElement Schedules=Schedule.get(0);
+////				String WeekdaysSchedule=Schedules.findElements(By.xpath("")).get(0).getText();
+//				System.out.println("Sunday Schedule....");
+//				//driver.close();
+//			}
+//				if(Weekday.equalsIgnoreCase("Monday")) {
+//					
+////					List<WebElement> Schedule=driver.findElements(By.className("schedule-detailed-day"));
+////					WebElement Schedules=Schedule.get(0);
+////					String WeekdaysSchedule=Schedules.findElements(By.xpath("")).get(0).getText();
+//					System.out.println("Monday Schedule....");
+//					//driver.close();
+//				
+//				
+//	}
+//			
 		}
 	
 	
