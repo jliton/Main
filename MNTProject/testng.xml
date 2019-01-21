@@ -3,9 +3,8 @@
 <suite name="Suite">
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="com.mycompany.Jabed.RESTAPITest" />
-			<class name="com.mycompany.Jabed.AppiumTest" />
-			<class name="com.mycompany.Jabed.SeleniumTest" />
+			
+			<class name="com.mycompany.Jabed.Driver"/>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
